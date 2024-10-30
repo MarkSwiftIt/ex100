@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct BeginningMode: View {
+struct BeginningLevel: View {
     var models: BeginningModel?
     @ObservedObject var days: BeginningModelArray
 

@@ -1,8 +1,8 @@
 import SwiftUI
 
-struct MediumMode: View {
+struct ProLevel: View {
     let layout = [
-        GridItem(.adaptive(minimum: 80))
+        GridItem(.adaptive(minimum: 100))
     ]
     
     var body: some View {
@@ -15,12 +15,12 @@ struct MediumMode: View {
                                     .border(Color.gray, width: 0.2)
                                     .cornerRadius(20)
                             }
-                }
+                        }
             }
         }
     }
 }
 
 #Preview {
-    MediumMode()
+    ProLevel()
 }

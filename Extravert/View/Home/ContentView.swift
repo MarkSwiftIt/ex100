@@ -13,12 +13,12 @@ struct ContentView: View {
             VStack {
                 Text("Стань экстравертом за 100 дней")
                     .font(.headline)
-                Text("Выберите режим")
+                Text("Выберите уровень")
                     .font(.callout)
                     .padding(15)
                 
-                NavigationLink(destination: BeginningMode(days: BeginningModelArray.init()), label: {
-                    Text("Beginning")
+                NavigationLink(destination: BeginningLevel(days: BeginningModelArray.init()), label: {
+                    Text("Начинающий")
                         .padding(20)
                         .foregroundColor(.white)
                         .frame(width: 250, height: 50)
@@ -26,8 +26,8 @@ struct ContentView: View {
                         .clipShape(Capsule())
                 })
                
-                NavigationLink(destination: MediumMode(), label: {
-                    Text("Medium")
+                NavigationLink(destination: MediumLevel(), label: {
+                    Text("Средний")
                         .padding(20)
                         .foregroundColor(.white)
                         .frame(width: 250, height: 50)
@@ -35,8 +35,8 @@ struct ContentView: View {
                         .clipShape(Capsule())
                 })
                 
-                NavigationLink(destination: ProMode(), label: {
-                    Text("Pro")
+                NavigationLink(destination: ProLevel(), label: {
+                    Text("Высокий")
                         .padding(20)
                         .foregroundColor(.white)
                         .frame(width: 250, height: 50)
