@@ -8,10 +8,10 @@ struct BeginningModel: Codable, Identifiable {
 
 final class BeginningModelArray: ObservableObject {
     @Published var persons: [BeginningModel] = [
-        .init(id: "id1", name: "день 1", description: "Поздороваться с незнакомым человеком и пожелать ему/ей хорошего дня."),
-        .init(id: "id2", name: "день 2", description: "Посетить какое-либо событие и поговорить об этом событии."),
-        .init(id: "id3", name: "день 3", description: "gss"),
-        .init(id: "id4", name: "день 4", description: "vssv"),
+        .init(id: "id1", name: "день 1", description: "Прогулка на свежем воздухе(в людном месте)."),
+        .init(id: "id2", name: "день 2", description: "Посетить какое-либо событие."),
+        .init(id: "id3", name: "день 3", description: "Поговорить о вчерашнем событии с кем-нибудь."),
+        .init(id: "id4", name: "день 4", description: "Поздороваться с незнакомым человеком и пожелать ему/ей хорошего дня."),
         .init(id: "id5", name: "день 5", description: "seggsevdvc"),
         .init(id: "id6", name: "день 6", description: "seggsevdvc"),
         .init(id: "id7", name: "день 7", description: "seggsevdvc"),
